@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <div class="container">
+      <div class="row">
+        <p class="col-1 hour pt-1 time-block">7AM</p>
+        <textarea id="sevenAm" class="col-10 mb-1 future"></textarea>
+        <button class="col-1 btn btn-light saveButton mb1" value="7">
+          Save
+        </button>
+      </div>
+      <div class="row">
+        <p class="col-1 hour pt-1 time-block">8AM</p>
+        <textarea id="eightAm" class="col-10 mb-1 future"></textarea>
+        <button class="col-1 btn btn-light saveButton mb1" value="8">
+          Save
+        </button>
+      </div>
+      <div class="row">
+        <p class="col-1 hour pt-1 time-block">9AM</p>
+        <textarea id="nineAm" class="col-10 mb-1 future"></textarea>
+        <button class="col-1 btn btn-light saveButton mb1" value="9">
+          Save
+        </button>
+      </div>
+      <div class="row">
+        <p class="col-1 hour pt-1 time-block">10AM</p>
+        <textarea id="tenAm" class="col-10 mb-1 future"></textarea>
+        <button class="col-1 btn btn-light saveButton mb1" value="10">
+          Save
+        </button>
+      </div>
+      <div class="row">
+        <p class="col-1 hour pt-1 time-block">11AM</p>
+        <textarea id="elevenAm" class="col-10 mb-1 future"></textarea>
+        <button class="col-1 btn btn-light saveButton mb1" value="11">
+          Save
+        </button>
+      </div>
+      <div class="row">
+        <p class="col-1 hour pt-1 time-block">12PM</p>
+        <textarea id="twelevePm" class="col-10 mb-1 future"></textarea>
+        <button class="col-1 btn btn-light saveButton mb1" value="12">
+          Save
+        </button>
+      </div>
+      <div class="row">
+        <p class="col-1 hour pt-1 time-block">1PM</p>
+        <textarea id="onePm" class="col-10 mb-1 future"></textarea>
+        <button class="col-1 btn btn-light saveButton mb1" value="13">
+          Save
+        </button>
+      </div>
+      <div class="row">
+        <p class="col-1 hour pt-1 time-block">2PM</p>
+        <textarea id="twoPm" class="col-10 mb-1 future"></textarea>
+        <button class="col-1 btn btn-light saveButton mb1" value="14">
+          Save
+        </button>
+      </div>
+      <div class="row">
+        <p class="col-1 hour pt-1 time-block">3PM</p>
+        <textarea id="threePm" class="col-10 mb-1 future"></textarea>
+        <button class="col-1 btn btn-light saveButton mb1" value="15">
+          Save
+        </button>
+      </div>
+      <div class="row">
+        <p class="col-1 hour pt-1 time-block">4PM</p>
+        <textarea id="fourPm" class="col-10 mb-1 future"></textarea>
+        <button class="col-1 btn btn-light saveButton mb1" value="16">
+          Save
+        </button>
+      </div>
+      <div class="row">
+        <p class="col-1 hour pt-1 time-block">5PM</p>
+        <textarea id="fivePm" class="col-10 mb-1 future"></textarea>
+        <button class="col-1 btn btn-light saveButton mb1" value="17">
+          Save
+        </button>
+      </div>
+      <div class="row">
+        <p class="col-1 hour pt-1 time-block">6PM</p>
+        <textarea id="sixm" class="col-10 mb-1 future"></textarea>
+        <button class="col-1 btn btn-light saveButton mb1" value="18">
+          Save
+        </button>
+      </div>
+      <div class="row">
+        <p class="col-1 hour pt-1 time-block">7PM</p>
+        <textarea id="sevenPm" class="col-10 mb-1 future"></textarea>
+        <button class="col-1 btn btn-light saveButton mb1" value="19">
+          Save
+        </button>
+      </div>
+      <div class="row">
+        <p class="col-1 hour pt-1 time-block">8PM</p>
+        <textarea id="eightPm" class="col-10 mb-1 future"></textarea>
+        <button class="col-1 btn btn-light saveButton mb1" value="20">
+          Save
+        </button>
+      </div>
+      <div class="row">
+        <p class="col-1 hour pt-1 time-block">9PM</p>
+        <textarea id="ninePm" class="col-10 mb-1 future"></textarea>
+        <button class="col-1 btn btn-light saveButton mb1" value="21">
+          Save
+        </button>
+      </div>
+      <div class="row">
+        <p class="col-1 hour pt-1 time-block">10PM</p>
+        <textarea id="tenPm" class="col-10 mb-1 future"></textarea>
+        <button class="col-1 btn btn-light saveButton mb1" value="22">
+          Save
+        </button>
+      </div>
+      <div class="row">
+        <p class="col-1 hour pt-1 time-block">11PM</p>
+        <textarea id="elevenPm" class="col-10 mb-1 future"></textarea>
+        <button class="col-1 btn btn-light saveButton mb1" value="23">
+          Save
+        </button>
+      </div>
+      <div class="row">
+        <p class="col-1 hour pt-1 time-block">12AM</p>
+        <textarea id="mid" class="col-10 mb-1 future"></textarea>
+        <button class="col-1 btn btn-light saveButton mb1" value="24">
+          Save
+        </button>
+      </div>
+      <div class="row">
+        <p class="col-1 hour pt-1 time-block">1AM</p>
+        <textarea id="oneAm" class="col-10 mb-1 future"></textarea>
+        <button class="col-1 btn btn-light saveButton mb1" value="1">
+          Save
+        </button>
+      </div>
+      <div class="row">
+        <p class="col-1 hour pt-1 time-block">2AM</p>
+        <textarea id="twoAm" class="col-10 mb-1 future"></textarea>
+        <button class="col-1 btn btn-light saveButton mb1" value="2">
+          Save
+        </button>
+      </div>
+      <div class="row">
+        <p class="col-1 hour pt-1 time-block">3AM</p>
+        <textarea id="threeAm" class="col-10 mb-1 future"></textarea>
+        <button class="col-1 btn btn-light saveButton mb1" value="3">
+          Save
+        </button>
+      </div>
+      <div class="row">
+        <p class="col-1 hour pt-1 time-block">4AM</p>
+        <textarea id="fourAm" class="col-10 mb-1 future"></textarea>
+        <button class="col-1 btn btn-light saveButton mb1" value="4">
+          Save
+        </button>
+      </div>
+      <div class="row">
+        <p class="col-1 hour pt-1 time-block">5AM</p>
+        <textarea id="fiveAm" class="col-10 mb-1 future"></textarea>
+        <button class="col-1 btn btn-light saveButton mb1" value="5">
+          Save
+        </button>
+      </div>
+      <div class="row">
+        <p class="col-1 hour pt-1 time-block">6AM</p>
+        <textarea id="sixAm" class="col-10 mb-1 future"></textarea>
+        <button class="col-1 btn btn-light saveButton mb1" value="6">
+          Save
+        </button>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="dayplan.js"></script>
+  </body>
+</html>
